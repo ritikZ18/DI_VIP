@@ -9,3 +9,6 @@ The quiz uses the Open Trivia API to generate random questions related to scienc
 The application is built using HTML, CSS, and JavaScript. The JavaScript code handles the quiz logic, including retrieving questions from the API, displaying questions and answer options, and checking the user's answers. The CSS code provides the styling for the quiz, while the HTML code provides the structure and content.
 
 Overall, this is a fun and educational quiz application that allows users to test their knowledge of science while enjoying a game-like experience.
+
+![Screenshot (149)](https://github.com/ritikZ18/DI_VIP/assets/116812243/512ce72f-ea79-4a2d-b140-7f06ac63d88b)
+
