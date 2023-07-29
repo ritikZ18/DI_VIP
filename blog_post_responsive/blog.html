@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Blog</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <section id="one">
+        <div class="blog-read">
+            <div class="blog-card">
+                <img src="./assets/images/blog-1.png" alt="Blog post image">
+                <div class="card-content">
+                    <h2>Building Microservices with Dropwizard, MongoDB & Docker</h2>
+                    <p>Microservices architecture has become increasingly popular in recent years as it offers a number
+                        of
+                        benefits over traditional monolithic architecture. Dropwizard is a popular Java framework for
+                        building microservices, and it is often used in combination with MongoDB and Docker to create a
+                        scalable and efficient microservices-based application.
+
+                        Dropwizard provides a simple and lightweight framework for building microservices that can be
+                        deployed quickly and easily. It also has built-in support for various components such as Jetty
+                        for
+                        serving HTTP requests, Jackson for JSON serialization, and Metrics for monitoring and reporting.
+                        MongoDB is a NoSQL database that is highly scalable and can handle large amounts of data. It is
+                        often used in conjunction with Dropwizard to store and manage data for microservices.
+
+                        Docker is a containerization platform that enables developers to package their applications
+                        along
+                        with all their dependencies into a single container. This makes it easy to deploy and run
+                        applications on different environments without having to worry about dependencies and
+                        configurations.
+
+                        By using Dropwizard, MongoDB, and Docker together, developers can create a scalable and
+                        efficient
+                        microservices-based application that is easy to deploy and manage. The combination of these
+                        technologies offers a powerful solution for building modern applications that can handle large
+                        amounts of data and traffic.
+
+
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="blog-jump">
+                <br><br>
+
+                Check out our other blog posts:<br>
+                <a href="#two"> Accessibility Tips for Web Developers.</a><br>
+                <a href="#three"> Dynamically Securing Databases using Hashicorp Vault.</a><br>
+                <a href="#four"> Adaptive Loading - Improving Web Performance on low-end devices.</a><br>
+                <a href="#five"> Don't Develop Just for Yourself - A Developer's Checklist to Accessibility.</a>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section id="two">
+        <div class="blog-read">
+            <div class="blog-card">
+                <img src="./assets/images/blog-2.png" alt="Blog post image">
+                <div class="card-content">
+                    <h2>Accessibility Tips for Web Developers</h2>
+                    <p> Web accessibility is about making websites and web applications usable by people with
+                        disabilities. As a web developer, it's important to keep accessibility in mind when building
+                        websites. Some key tips include using semantic HTML, providing alternative text for images,
+                        using high contrast colors, and making sure your website is keyboard accessible. Other tips
+                        include providing captions and transcripts for videos, using ARIA attributes, and testing your
+                        website with assistive technologies. Following these best practices can help ensure that your
+                        website is accessible to all users and provides a better user experience for everyone,
+                        regardless of their abilities.
+
+
+                        <br><br><br>
+                        1. Use semantic HTML to help screen readers understand the structure of your page.
+                        <br>
+                        2. Provide descriptive alternative text for images.
+                        <br>
+                        3. Use high contrast colors to ensure readability for users with low vision or color
+                        blindness.<br>
+                        4. Use descriptive link text instead of generic text like "click here."<br>
+                        5. Make sure your website is keyboard accessible.<br>
+                        6. Provide captions or transcripts for videos.<br>
+                        7. Use ARIA attributes to provide additional information to assistive technologies.<br>
+                        8. Use headings and subheadings to structure your content.<br>
+                        9. Avoid flashing or blinking content.<br>
+                        10. Provide clear and concise instructions.<br>
+                        11. Test your website with assistive technologies and evaluation tools.<br>
+                        12. Provide a way for users to skip repetitive content.<br>
+
+
+
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="blog-jump">
+                <br><br>
+
+                Check out our other blog posts:<br>
+                <a href="#one"> Building Microservices with Dropwizard, MongoDB & Docker.</a><br>
+                <a href="#three"> Dynamically Securing Databases using Hashicorp Vault.</a><br>
+                <a href="#four"> Adaptive Loading - Improving Web Performance on low-end devices.</a><br>
+                <a href="#five"> Don't Develop Just for Yourself - A Developer's Checklist to Accessibility.</a>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section id="three">
+        <div class="blog-read">
+            <div class="blog-card">
+                <img src="./assets/images/blog-4.png" alt="Blog post image">
+                <div class="card-content">
+                    <h2>Dynamically Securing Databases using Hashicorp Vault.</h2>
+                    <p> "Dynamically Securing Databases using Hashicorp Vault" is a blog post that discusses how to use
+                        Hashicorp Vault to secure a database by dynamically generating database credentials. Here's a
+                        brief
+                        summary of the blog post:
+
+                        Traditionally, securing a database involves creating a static username and password and storing
+                        them
+                        in a configuration file. However, this approach has several drawbacks, such as the risk of the
+                        credentials being compromised and the difficulty of rotating them. To overcome these issues, the
+                        blog post proposes using Hashicorp Vault, a tool for managing secrets and protecting sensitive
+                        data.
+
+                        With Hashicorp Vault, you can dynamically generate database credentials on demand, which reduces
+                        the
+                        risk of the credentials being compromised. When a client requests access to the database, Vault
+                        generates a new set of credentials and returns them to the client. The credentials have a
+                        limited
+                        lifespan, and once they expire, they are automatically revoked by Vault.
+
+                        The blog post also discusses some best practices for using Hashicorp Vault, such as rotating
+                        secrets
+                        regularly and limiting access to Vault using policies.
+
+                        Overall, "Dynamically Securing Databases using Hashicorp Vault" is a useful resource for anyone
+                        looking to improve the security of their database by using dynamic credentials.
+
+                        The blog post provides a step-by-step guide on how to use Hashicorp Vault to secure a MySQL
+                        database. The guide covers the following steps:
+                        <br><br><br><br>
+
+                        1. Install and configure Hashicorp Vault.<br>
+                        2. Enable the database secrets engine in Vault.<br>
+                        3. Configure Vault to connect to the MySQL database.<br>
+                        4. Create a Vault role and policy that grants access to the MySQL database.<br>
+                        5. Generate database credentials using the Vault API.<br>
+                        6. Use the generated credentials to connect to the MySQL database.<br>
+
+
+
+
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="blog-jump">
+                <br><br>
+
+                Check out our other blog posts:<br>
+                <a href="#one"> Building Microservices with Dropwizard, MongoDB & Docker.</a><br>
+                <a href="#two"> Accessibility Tips for Web Developers</a><br>
+                <a href="#four"> Adaptive Loading - Improving Web Performance on low-end devices.</a><br>
+                <a href="#five"> Don't Develop Just for Yourself - A Developer's Checklist to Accessibility.</a>
+
+
+            </div>
+        </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="four">
+        <div class="blog-read">
+            <div class="blog-card">
+                <img src="./assets/images/blog-6.png" alt="Blog post image">
+                <div class="card-content">
+                    <h2>Adaptive Loading - Improving Web Performance on low-end devices. </h2>
+                    <p>
+                        "Adaptive Loading - Improving Web Performance on low-end devices" is a blog post that discusses
+                        how to improve website performance on low-end devices by using adaptive loading techniques.
+                        Here's a brief summary of the blog post:
+
+                        The blog post starts by highlighting the importance of website performance, especially on
+                        low-end devices. Slow-loading websites not only frustrate users but also lead to a poor user
+                        experience and decreased engagement. Adaptive loading is a technique that can help improve
+                        website performance on low-end devices.
+
+                        Adaptive loading involves optimizing a website's resources based on the device's capabilities
+                        and network conditions. The blog post provides several adaptive loading techniques that can be
+                        used to improve website performance on low-end devices:
+                        <br><br><br><br>
+
+                        1. Lazy Loading: This technique involves loading resources only when they are needed. For
+                        example, images can be loaded only when they are visible in the viewport.<br>
+
+                        2. Conditional Loading: This technique involves loading resources based on device capabilities.
+                        For example, high-resolution images can be loaded only on devices that support high-resolution
+                        displays.<br>
+
+                        3. Resource Prioritization: This technique involves prioritizing the loading of critical
+                        resources, such as CSS and JavaScript files, over less critical resources, such as images.<br>
+
+                        4. Asset Optimization: This technique involves optimizing resources, such as images and videos,
+                        to reduce their file size and improve loading times.<br>
+
+                        The blog post also provides some tips on how to implement these techniques in practice. For
+                        example, it suggests using tools like Lighthouse and WebPageTest to measure website performance
+                        and identify areas for optimization. It also suggests using a content delivery network (CDN) to
+                        improve resource loading times.
+
+                        Overall, "Adaptive Loading - Improving Web Performance on low-end devices" is a useful resource
+                        for website developers looking to optimize their website's performance on low-end devices. By
+                        using adaptive loading techniques, developers can improve website speed, reduce bounce rates,
+                        and provide a better user experience for all users, regardless of their device capabilities.
+
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="blog-jump">
+                <br><br>
+
+                Check out our other blog posts:<br>
+                <a href="#one"> Building Microservices with Dropwizard, MongoDB & Docker.</a><br>
+                <a href="#three"> Dynamically Securing Databases using Hashicorp Vault.</a><br>
+                <a href="#two">Accessibility Tips for Web Developers.</a><br>
+                <a href="#four"> Adaptive Loading - Improving Web Performance on low-end devices.</a>
+
+
+            </div>
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="five">
+
+        <div class="blog-read">
+            <div class="blog-card">
+                <img src="./assets/images/blog-5.png" alt="Blog post image">
+                <div class="card-content">
+                    <h2>Don't Develop Just for Yourself - A Developer's Checklist to Accessibility </h2>
+                    <p>
+                        "Don't Develop Just for Yourself - A Developer's Checklist to Accessibility" is a blog post that
+                        discusses the importance of accessibility in web development and provides a checklist of best
+                        practices for developers to follow. Here's a brief summary of the blog post:
+
+                        The blog post starts by highlighting the importance of accessibility in web development.
+                        Accessibility ensures that people with disabilities can use websites, apps, and other digital
+                        products. It is not only a legal requirement but also a moral obligation for developers to make
+                        their products accessible to everyone.
+
+                        The blog post provides a checklist of best practices for developers to follow when developing
+                        accessible web content. The checklist includes the following items:
+                        <br><br><br><br>
+
+                        1. Use semantic HTML: Use proper HTML tags to structure content and provide context for screen
+                        readers.<br>
+
+                        2. Provide alternative text for non-text content: Use alt attributes to provide descriptions of
+                        images, videos, and other non-text content.<br>
+
+                        3. Use ARIA attributes: Use ARIA attributes to enhance accessibility for users of assistive
+                        technologies.<br>
+
+                        4. Ensure keyboard accessibility: Ensure that all website functionality is accessible via
+                        keyboard navigation.<br>
+
+                        5. Use sufficient color contrast: Ensure that there is sufficient contrast between text and
+                        background colors to make text readable for users with low vision.<br>
+
+                        6. Provide captions and transcripts: Provide captions and transcripts for audio and video
+                        content to ensure accessibility for users with hearing impairments.<br>
+
+                        7. Use descriptive link text: Use descriptive link text that provides context for users of
+                        assistive technologies.<br>
+
+                        8. Test with assistive technologies: Test your website with screen readers and other assistive
+                        technologies to ensure accessibility.<br>
+
+                        
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="blog-jump">
+                <br><br>
+
+                Check out our other blog posts:<br>
+                <a href="#one"> Building Microservices with Dropwizard, MongoDB & Docker.</a><br>
+                <a href="#three"> Dynamically Securing Databases using Hashicorp Vault.</a><br>
+                <a href="#two">Accessibility Tips for Web Developers.</a><br>
+                <a href="#four"> Don't Develop Just for Yourself - A Developer's Checklist to Accessibility.</a>
+
+
+            </div>
+
+        </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+    <script>
+        // Get all the links with the class "blog-jump"
+        const links = document.querySelectorAll('.blog-jump a');
+
+        // Add an event listener to each link
+        links.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault(); // prevent the default link behavior
+
+                // Get the ID of the target section from the link's href attribute
+                const targetId = link.getAttribute('href');
+
+                // Hide all sections
+                const sections = document.querySelectorAll('section');
+                sections.forEach(section => section.style.display = 'none');
+
+                // Show the target section
+                const targetSection = document.querySelector(targetId);
+                targetSection.style.display = 'block';
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
