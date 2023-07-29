@@ -1,4 +1,5 @@
 # Github Explorer 🚀
+# Deployed : https://remarkable-jelly-d20bec.netlify.app/
 
 This project is a web application that allows you to search for Github repositories and view their details using the Github API.
 
