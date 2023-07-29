@@ -1,4 +1,5 @@
-🎯 **QUIZZ APP - API Project deployed at https://dainty-druid-d6d7c7.netlify.app/**
+# 🎯 **QUIZZ APP - API Project
+## deployed at https://dainty-druid-d6d7c7.netlify.app/**
 
 🧪 This is a simple quiz application built using GitHub and Open Trivia API. The quiz consists of **10 questions related to science**, and the user must answer all the questions correctly to win.
 
