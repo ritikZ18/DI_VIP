@@ -1,15 +1,15 @@
-# Github Explorer
+# Github Explorer 🚀
 
 This project is a web application that allows you to search for Github repositories and view their details using the Github API.
 
-## Features
+## Features 🔍
 
 - Search for repositories by name and/or owner
 - View repository details, including the number of stars, forks, and issues, as well as the owner's avatar and bio
 - Sort repositories by various criteria, such as the number of stars or forks
 - View the list of contributors and their contributions to a repository
 
-## Technologies used
+## Technologies used 🛠️
 
 This project was built with:
 
@@ -18,7 +18,7 @@ This project was built with:
 - JavaScript (ES6)
 - Github API
 
-## How to use
+## How to use 📖
 
 To use this application, simply enter a repository name and/or owner in the search bar and click the "Search" button. The application will retrieve the relevant repositories from the Github API and display them in a list.
 
@@ -26,18 +26,18 @@ You can then select a repository from the list to view its details, including th
 
 You can also sort the list of repositories by various criteria using the dropdown menu.
 
-## Live demo
+## Live demo 🌐
 
-A live demo of the application can be found at (https://remarkable-jelly-d20bec.netlify.app/)
+A live demo of the application can be found at https://remarkable-jelly-d20bec.netlify.app/.
 
-## Installation
+## Installation 💻
 
 To install and run this application locally, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/your-username/github-explorer.git`
 2. Open the `index.html` file in your web browser
 
-## Contributing
+## Contributing 🤝
 
 If you would like to contribute to this project, please follow these steps:
 
@@ -47,8 +47,8 @@ If you would like to contribute to this project, please follow these steps:
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
-## License
+## License 📄
 
-This project is licensed under the MIT License. See the LICENSE file for details. 
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-🚀 Happy exploring!
+Happy exploring! 🕵️‍♀️
