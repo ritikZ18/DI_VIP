@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000000; /* light gray background similar to Reddit */
+  font-family: 'Roboto', sans-serif;
+}
+
+.chat__section {
+  width: 800px;
+  max-width: 90%;
+  background: #2b282c;
+  box-shadow: 0 0 0 rgba(215, 112, 28, 0.977), 0 0 0 rgba(255, 165, 0, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.chat__section.is-sending {
+  box-shadow: 0 0 20px 10px rgb(255, 171, 16), 0 0 30px 20px rgb(255, 220, 20);
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+  0% {
+    box-shadow: 0 0 20px 10px rgba(255, 0, 191, 0.7), 0 0 30px 20px rgba(0, 255, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 0 rgba(0, 255, 255, 0), 0 0 0 rgba(255, 0, 191, 0);
+  }
+  100% {
+    box-shadow: 0 0 20px 10px rgba(255, 0, 191, 0.7), 0 0 30px 20px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.brand {
+  padding: 20px;
+  background: #df450d;
+  display: flex;
+  align-items: center;
+}
+
+.brand svg {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+  fill: #fff;
+}
+
+.brand img {
+  width: 50px; /* adjust the width as needed */
+  height: 50px; /* adjust the height as needed */
+  margin-right: 10px; /* add some margin to the right of the image */
+  vertical-align: middle; /* align the image with the text */
+  background-image: url(/logo.png);
+}
+
+.brand h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+}
+
+.message__area {
+  height: 500px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-top: 40px;
+}
+
+textarea {
+    resize: none;
+  width: 100%;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  outline: none;
+  background: #f5f5f7;
+  color: #333; /* dark gray text */
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+textarea:focus {
+  background-color: #fff;
+}
+
+.message {
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  max-width: 300px;
+  position: relative;
+  color: #514949;
+  animation: fadeIn ease-in-out 0.5s;
+}
+
+.incoming {
+    background: #0079D3;
+    color: #333;
+   
+   
+   
+    max-width: 200px;
+  }
+
+.outgoing {
+  background: #F1F1F1;
+  color: #100000;
+  margin-left: auto;
+}
+
+.message h4 {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: #df5515;
+  font-size: 14px;
+}
+
+.sent-message {
+  background: #4CAF50;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  position: relative;
+  text-align: right;
+  margin-bottom: 20px;
+  animation: slideInRight 0.3s ease;
+}
+
+.sent-message:before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  margin-top: -10px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 10px solid #4CAF50;
+  border-bottom: 10px solid transparent;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .chat__section {
+        max-width: 100%;
+    }
+}
+
+/* Styles for medium screens */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .chat__section {
+        max-width: 90%;
+    }
+}
+
+/* Styles for large screens */
+@media only screen and (min-width: 768px) {
+    .chat__section {
+        max-width: 80%;
+    }
+}
+
+/* Styles for extra large screens */
+@media only screen and (min-width: 1200px) {
+    .chat__section {
+        max-width: 1000px;
+    }
+}
