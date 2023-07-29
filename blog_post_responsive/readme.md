@@ -49,3 +49,8 @@ If you'd like to contribute to the development of the app, please follow the ste
 ## License 📜
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+![image](https://github.com/ritikZ18/DI_VIP/assets/116812243/815a95dd-d394-4645-b579-11802637fc06)
+![image](https://github.com/ritikZ18/DI_VIP/assets/116812243/ceafb33a-ac31-4de8-9127-db854ef3f00d)
+
+
