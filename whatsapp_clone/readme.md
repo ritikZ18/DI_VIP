@@ -48,8 +48,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 # Codewithharry
 
-## Contact 📧
 
-If you have any questions or comments about this project, please contact me at your-email@example.com.
 
 Happy chatting! 🎉
