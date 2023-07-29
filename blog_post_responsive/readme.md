@@ -1,5 +1,5 @@
 # Blog Post App 📝
-## Deployed : 
+## Deployed : https://rainbow-pie-58a0d0.netlify.app/
 This is a simple web application that allows users to create, read, update, and delete blog posts. The app is built using HTML, CSS, jQuery, and Bootstrap.
 
 ## Getting Started 🚀
